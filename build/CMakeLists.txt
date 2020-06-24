@@ -9,6 +9,8 @@ project(main)
 aux_source_directory(../src SRC_LIST)
 #list(REMOVE_ITEM SRC_LIST "exclude.cpp") 
 
+add_definitions(-DUNICODE -D_UNICODE)
+
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../bin)
 
 # 指定生成目標
