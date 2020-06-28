@@ -13,12 +13,12 @@ class CastSystem
     }
 };
 
-class EnchantSystem
+class LaunchSystem
 {
     public:
     int launch()
     {
-        cout << "Enchant!" <<endl;
+        cout << "Launch!" <<endl;
     }
 };
 
@@ -26,7 +26,7 @@ class Fireball
 {
     private:
     CastSystem* cast;
-    EnchantSystem* enchant;
+    LaunchSystem* enchant;
 
     public:
     Fireball();
@@ -36,7 +36,7 @@ class Fireball
 Fireball::Fireball()
 {
     cast = new CastSystem;
-    enchant = new EnchantSystem;
+    enchant = new LaunchSystem;
 }
 
 int Fireball::Attack()
