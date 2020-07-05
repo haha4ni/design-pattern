@@ -5,3 +5,9 @@
 工廠模式
 簡單工廠使用switch相依性太強
 把工廠時作拆開降低相依姓
+
+
+
+
+
+所以簡單的說strategy是避免去動到原本的code  Bridge則是避免過度的subclass
