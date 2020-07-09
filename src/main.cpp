@@ -15,6 +15,8 @@
 
 #include "decorator.h"
 
+#include "observer.h"
+
 using namespace std;
 
 int main(int argc, char const *argv[]) 
@@ -26,8 +28,8 @@ int main(int argc, char const *argv[])
 
     //StrategyTest();
 
-    decorator::DecoratorTest();
-    
+    //decorator::DecoratorTest();
+    ObserverTest();
 
     system("pause");
     return 1;
