@@ -4,10 +4,12 @@
 
 | Creational | Structural | Behavioral |
 | :----: | :----: | :----: |
-| Abstract Factory | Adapter |
-| Builder | Bridge |
-| Factory Method | Composite |
-| Prototype | Decorator |
+| Abstract Factory |  |
+|  | Bridge |
+| Factory Method |  |
+|  | Decorator |
 | Singleton | Facade |
-|  | Flyweight |
-|  | Proxy |
+|  |  |
+|  |  | Observer |
+|  |  |
+|  |  | Strategy |
