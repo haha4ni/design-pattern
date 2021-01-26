@@ -10,6 +10,6 @@
 |  | Decorator |
 | Singleton | Facade |
 |  |  |
-|  |  | Observer |
+|  | Proxy | Observer |
 |  |  |
 |  |  | Strategy |
